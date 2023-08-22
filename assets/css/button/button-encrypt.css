@@ -1,0 +1,8 @@
+.button__encrypt {
+  background-color: var(--DarkBlue200);
+  color: white;
+}
+
+.button__encrypt:hover {
+  background-color: var(--DarkBlue300);
+}

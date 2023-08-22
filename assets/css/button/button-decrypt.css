@@ -1,0 +1,9 @@
+.button__decrypt {
+  background-color: var(--LightBlue300);
+  color: var(--DarkBlue300);
+}
+
+.button__decrypt:hover {
+  background-color: var(--LightBlue500);
+  color: white;
+}

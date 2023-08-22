@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge Encriptador</title>
+    <link href="/assets/css/reset.css" rel="stylesheet" />
+    <link href="/assets/css/global.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/assets/css/main.css" rel="stylesheet" />
+    <link href="/assets/css/header/c-header.css" rel="stylesheet" />
+    <link href="/assets/css/header/c-header-logo.css" rel="stylesheet" />
+    <link href="/assets/css/form/c-form.css" rel="stylesheet" />
+    <link href="/assets/css/form/c-form-input.css" rel="stylesheet" />
+    <link href="/assets/css/form/c-form-legend.css" rel="stylesheet" />
+    <link href="/assets/css/button/button.css" rel="stylesheet" />
+    <link href="/assets/css/button/button-decrypt.css" rel="stylesheet" />
+    <link href="/assets/css/button/button-encrypt.css" rel="stylesheet" />
+    <link href="/assets/css/form/c-form-buttons.css" rel="stylesheet" />
+    <link href="/assets/css/result/result.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="c-main">
+      <header class="c-header">
+        <img class="c-header__logo" src="/assets/img/Logo.png" />
+      </header>
+      <form class="c-form">
+        <textarea
+          id="input"
+          type="text"
+          placeholder="Ingrese el texto aqui..."
+          class="c-form__input"
+        ></textarea>
+        <legend class="c-form__legend">
+          <img src="/assets/img/icon.png" />
+          <span>Solo letras minúsculas y sin acentos</span>
+        </legend>
+        <section class="c-form-buttons">
+          <a href="#" class="button button__encrypt" id="encrypt">Encriptar</a>
+          <a href="#" class="button button__decrypt" id="decrypt"
+            >Desencriptar</a
+          >
+        </section>
+      </form>
+      <section class="c-result">
+        <div id="resultado" class="resultado">
+          <p class="texto_resultado" data-resultado></p>
+          <a href="#" class="button" id="copiar">Copiar</a>
+        </div>
+        <div class="c-result__notFound" id="notFound">
+          <figure class="result__notFound">
+            <img class="result__img" src="/assets/img/notFound.png" />
+          </figure>
+          <figcaption class="result__caption">
+            Ningún mensaje fue encontrado
+          </figcaption>
+          <p class="result__description">
+            Ingresa el texto que desees encriptar o desencriptar.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"><span>Made by EduardoLopezT</span></footer>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

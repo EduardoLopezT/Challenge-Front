@@ -1,0 +1,20 @@
+.c-form-buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 0) {
+  .c-form-buttons {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 376px) {
+  .c-form-buttons {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 769px) {
+  .c-form-buttons {
+    flex-direction: row;
+  }
+}

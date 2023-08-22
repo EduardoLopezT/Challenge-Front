@@ -1,0 +1,45 @@
+:root {
+  --DarkBlue100: #609ed4;
+  --DarkBlue200: #356ea9;
+  --DarkBlue300: #0a3871;
+  --DarkBlue400: #072b61;
+  --DarkBlue500: #052051;
+
+  --LightBlue100: #f3f5fc;
+  --LightBlue200: #eff1fa;
+  --LightBlue300: #e9ecf8;
+  --LightBlue400: #aab2d5;
+  --LightBlue500: #757fb2;
+
+  --Gray100: #ced4da;
+  --Gray200: #adb5bd;
+  --Gray300: #868e96;
+  --Gray400: #495057;
+  --Gray500: #343a40;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.resultado {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  max-width: 90%;
+  width: 90%;
+  height: screen;
+  border-radius: 32px;
+  padding: 2rem;
+  box-shadow: 1px 5px 5px 5px var(--LightBlue300);
+}
+
+.texto_resultado {
+  width: 100%;
+  overflow-wrap: break-word;
+}
+
+#copiar {
+  max-width: 100%;
+}

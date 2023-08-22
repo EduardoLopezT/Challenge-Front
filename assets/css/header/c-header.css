@@ -1,0 +1,24 @@
+.c-header {
+  padding-top: 3rem;
+  width: 10rem;
+}
+
+@media screen and (min-width: 0) {
+  .c-header {
+    padding-top: 1rem;
+    height: 2rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .c-header {
+    height: 4rem;
+    padding-top: 2rem;
+  }
+}
+@media screen and (min-width: 769px) {
+  .c-header {
+    height: 4rem;
+  }
+}

@@ -1,0 +1,29 @@
+.c-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: screen;
+}
+
+@media screen and (min-width: 0) {
+  .c-form {
+    padding: 1rem;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .c-form {
+    width: screen;
+    padding: 2rem;
+    min-height: max-content;
+  }
+}
+@media screen and (min-width: 769px) {
+  .c-form {
+    width: 100%;
+    max-width: 50%;
+    padding-top: 10rem;
+    height: screen;
+  }
+}

@@ -1,0 +1,20 @@
+.cheader__logo {
+  height: 100%;
+}
+
+@media screen and (min-width: 0) {
+  .c-header__logo {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .c-header__logo {
+    height: 60%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .c-header__logo {
+    height: 100%;
+  }
+}

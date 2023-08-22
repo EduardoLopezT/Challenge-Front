@@ -1,0 +1,43 @@
+.c-form__input {
+  flex-grow: 2;
+  font-family: Montserrat;
+  color: var(--DarkBlue300);
+  text-align: start;
+  border: 0;
+  padding: 1rem;
+  background-color: var(--LightBlue100);
+  resize: none;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.c-form__input::placeholder {
+  color: var(--DarkBlue300);
+}
+
+.c-form__input:focus {
+  outline: dashed;
+}
+
+@media screen and (min-width: 0) {
+  .c-form__input {
+    padding: 0rem;
+    font-size: 1.5rem;
+    min-height: 80vw;
+    height: fit-content;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .c-form__input {
+    max-width: 100%;
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 769px) {
+  .c-form__input {
+    min-height: 65vh;
+    max-height: 80%;
+    font-size: 2rem;
+  }
+}
